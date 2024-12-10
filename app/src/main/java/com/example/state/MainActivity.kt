@@ -47,7 +47,7 @@ class MainActivity : ComponentActivity() {
                         textAlign = TextAlign.Center,
                         fontSize = 22.sp,
                         color = Color.Black,
-                        modifier = Modifier.clickable(onClick = { isEnglish = !isEnglish })
+                        modifier = Modifier.fillMaxWidth().clickable(onClick = { isEnglish = !isEnglish })
                     )
                 }
             }
